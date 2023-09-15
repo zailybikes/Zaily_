@@ -1612,3 +1612,44 @@ top: 8%;
 width: 335px;
 height: 55px;
 }
+#promo1{
+  width: 190px;
+  left: -1.8%;
+  top: 05%;
+  
+}
+#promo2{
+position: relative;
+width: 190px;
+top: -10%;
+}
+#promo3{
+  position: relative;
+  width: 190px;
+  top: -10%;
+  }
+  #promo4{
+    position: relative;
+    width: 190px;
+    top: -10%;
+    }
+    #promo5{
+      position: relative;
+      width: 190px;
+      top: -10%;
+      }
+      #promo6{
+        position: relative;
+        width: 190px;
+        top: 7%;
+        }
+        #promo7{
+          position: relative;
+          width: 190px;
+          top: -10%;
+          } 
+          #promo8{
+            position: relative;
+            width: 190px;
+            top: 7%;
+            }    
