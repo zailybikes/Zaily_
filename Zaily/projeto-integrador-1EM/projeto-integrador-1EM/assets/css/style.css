@@ -1653,6 +1653,43 @@ top: -10%;
             width: 190px;
             top: 7%;
             } 
-#valor{
-  top: -60%;
+#valores{
+  position: relative;
+  top: 60%;
+  right: -20%;
+}
+#valores2{
+  position: relative;
+  top: -20%;
+  right: -20%;
+}
+#valores3{
+  position: relative;
+  top: -20%;
+  right: -20%;
+}
+#valores4{
+  position: relative;
+  top: -20%;
+  right: -20%;
+}
+#valores5{
+  position: relative;
+  top: 01%;
+  right: -20%;
+}
+#valores6{
+  position: relative;
+  top: 15%;
+  right: -20%;
+}
+#valores7{
+  position: relative;
+  top: -20%;
+  right: -20%;
+}
+#valores8{
+  position: relative;
+  top: 11%;
+  right: -20%;
 }
