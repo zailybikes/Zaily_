@@ -1652,4 +1652,7 @@ top: -10%;
             position: relative;
             width: 190px;
             top: 7%;
-            }    
+            } 
+#valor{
+  top: -60%;
+}
