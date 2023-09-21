@@ -42,3 +42,7 @@ function showSlides(n) {
     function openMenu() {
       document.getElementById("myMenu").style.display = "block";
     }
+    const button = document.querySelector('.button');
+    button.addEventListener('click', () => {
+      console.log('Button clicked!');
+    });

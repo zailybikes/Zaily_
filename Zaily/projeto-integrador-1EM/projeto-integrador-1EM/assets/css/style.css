@@ -1231,7 +1231,7 @@ section img:hover{
   background-color: #ff0000;
   opacity: 1;
   filter: blur(12px);
-  animation: blob-bounce 5s infinite ease;
+  animation: blob-bounce 3s infinite ease;
 }
 
 @keyframes blob-bounce {
@@ -1315,7 +1315,7 @@ section img:hover{
   justify-content: center;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   left: 15%;
-  top: -249px;
+  top: -269px;
 }
 .carde4 {
   position: relative;
@@ -1330,7 +1330,7 @@ section img:hover{
   justify-content: center;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   left: 35%;
-  top: -498px;
+  top: -520px;
 }
 .carde5 {
   position: relative;
@@ -1345,7 +1345,7 @@ section img:hover{
   justify-content: center;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   left: 55%;
-  top: -749px;
+  top: -770px;
 }
 .carde6 {
   position: relative;
@@ -1360,7 +1360,7 @@ section img:hover{
   justify-content: center;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   left: 75%;
-  top: -999px;
+  top: -1020px;
 }
 
 .cardezao {
@@ -1614,7 +1614,7 @@ height: 55px;
 }
 #promo1{
   width: 190px;
-  left: -1.8%;
+  left: -2%;
   top: 05%;
   
 }
@@ -1692,4 +1692,156 @@ top: -10%;
   position: relative;
   top: 11%;
   right: -20%;
+}
+.button {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: pulse 2s infinite alternate;
+  position: absolute;
+  top: 120%;
+  right: 74%;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.03);
+  }
+}
+.button0 {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: pulse 2s infinite alternate;
+  position: absolute;
+  top: 120.5%;
+  right: 54%;
+}
+.button1 {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: pulse 2s infinite alternate;
+  position: absolute;
+  top: 120.5%;
+  right: 74%;
+}
+.button2 {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: pulse 2s infinite alternate;
+  position: absolute;
+  top: 120.5%;
+  left: 55%;
+}
+.button3 {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: pulse 2s infinite alternate;
+  position: absolute;
+  top: 120.5%;
+  left: 75%;
+}
+.button4 {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: pulse 2s infinite alternate;
+  position: absolute;
+  top: 165%;
+  left: 75%;
+}
+.button5 {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: pulse 2s infinite alternate;
+  position: absolute;
+  top: 165%;
+  left: 55%;
+}
+.button6 {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: pulse 2s infinite alternate;
+  position: absolute;
+  top: 165%;
+  left: 35.3%;
+}
+.button7 {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: pulse 2s infinite alternate;
+  position: absolute;
+  top: 165%;
+  left: 15.3%;
 }
