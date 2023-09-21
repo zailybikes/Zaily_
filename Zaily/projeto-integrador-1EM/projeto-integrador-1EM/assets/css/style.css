@@ -1585,19 +1585,19 @@ section img:hover{
  position: absolute;
  right: 57%;
  width: 500px;
- top: 40%;
+ top: 150%;
 }
 .cardez1{
   position: absolute;
-  left: 40%;
+  left: 41.75%;
   width: 500px;
-  top: 40%;
+  top: 150%;
  }
  .cardez2{
   position: absolute;
-  left: 63%;
+  left: 67%;
   width: 500px;
-  top: 40%;
+  top: 150%;
  }
 
 
@@ -1844,4 +1844,9 @@ top: -10%;
   position: absolute;
   top: 165%;
   left: 15.3%;
+}
+.banner-reco{
+  position: absolute;
+  top: 25%;
+  left: -1%;
 }
