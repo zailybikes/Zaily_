@@ -1,5 +1,0 @@
-(function(){if(window.Imager){Imager.prototype.replaceImagesBasedOnScreenDimensions=function(image){var availableWidths=[],srcARRAY,cwidth;const DATA_MEDIA="data-media";if($(image).attr(DATA_MEDIA)!==undefined){var eMedia=$(image).attr(DATA_MEDIA);$(image).removeAttr(DATA_MEDIA);eMedia=$.parseJSON(eMedia);$.each(eMedia,function(key,value){availableWidths.push(parseInt(key));});$(image).data("width",availableWidths);$(image).data("media",eMedia);}
-srcARRAY=$(image).data("media");cwidth=Imager.getClosestValue(window.innerWidth,$.extend([],$(image).data("width")));if(!srcARRAY[cwidth]||image.src==srcARRAY[cwidth]){return;}
-image.src=srcARRAY[cwidth];};}
-window.smartedit.addOnReprocessPageListener(function(){ACC.global.initImager();ACC.global.reprocessImages();if($(".navigation--top .myAccountLinksHeader").length===0){$('.js-myAccount-root').empty();$(".js-secondaryNavAccount > ul").empty();ACC.navigation.myAccountNavigation();}
-ACC.carousel.bindCarousel();ACC.autocomplete.bindSearchAutocomplete();});})();

@@ -51,17 +51,19 @@ input:focus{
   top:120px;
   left:1017px;
 }
-.carrinho{
-  top: 115px;
+.carrinhoteste{
+  position: relative;
+  left: 65%;
+  top: -428px;
+
+}
+
+.carrinhoteste:hover{
+  -ms-transform: scale(1.7);
+  transform: scale(1.13);
 }
 #menu{
   color:black;
-}
-#carrinho{
-position: absolute;
-top: 112px;
-right: 266px;
-width: 36px;
 }
 #contato{
   z-index: 9999;
@@ -167,17 +169,12 @@ transition: 2s;
   .prev, .next,.text {font-size: 11px}
 }
 #coracao{
-  width: 54px;
+  width: 64px;
   position: absolute;
   left: 650px;
   top: 46px;
 }
-#coracao2{
-  font-family: serif;
-  position: absolute;
-  left: 1265px ;
-  top: 101px;
-}
+
 
 
 .container {
@@ -201,7 +198,11 @@ transition: 2s;
 .image:hover {
   transform: scale(1.3);
 }
-
+.testezao{
+  position: absolute;
+  top: 22%;
+  right: -50px;
+}
 
 .button {
   background-color: #4CAF50;
@@ -233,7 +234,7 @@ transition: 2s;
   background-color: #f1f1f1;
 }
 .card {
-  top: 300px;
+  top: 90%;
   left: 200px;
   --font-color: #323232;
   --font-color-sub: #666;
@@ -338,7 +339,7 @@ justify-content: center;
 
 
 .card2 {
-  top: 300px;
+  top: 90%;
   left: 750px;
   --font-color: #323232;
   --font-color-sub: #666;
@@ -441,7 +442,7 @@ justify-content: center;
   transform: translateY(3px);
 }
 .card3 {
-  top: 300px;
+  top: 90%;
   left: 1300px;
   --font-color: #323232;
   --font-color-sub: #666;
@@ -545,7 +546,7 @@ justify-content: center;
 }
 
 .card4 {
-  top: 800px;
+  top: 140%;
   left: 1300px;
   --font-color: #323232;
   --font-color-sub: #666;
@@ -648,7 +649,7 @@ justify-content: center;
   transform: translateY(3px);
 }
 .card5 {
-  top: 800px;
+  top: 140%;
   left: 750px;
   --font-color: #323232;
   --font-color-sub: #666;
@@ -752,7 +753,7 @@ justify-content: center;
 }
 
 .card6 {
-  top: 800px;
+  top: 140%;
   left: 200px;
   --font-color: #323232;
   --font-color-sub: #666;
@@ -856,7 +857,7 @@ justify-content: center;
 }
 
 .card7 {
-  top: 1320px;
+  top: 190%;
   left: 200px;
   --font-color: #323232;
   --font-color-sub: #666;
@@ -960,7 +961,7 @@ justify-content: center;
 }
 
 .card8 {
-  top: 1320px;
+  top: 190%;
   left: 750px;
   --font-color: #323232;
   --font-color-sub: #666;
@@ -1064,7 +1065,7 @@ justify-content: center;
 }
 
 .card9 {
-  top: 1320px;
+  top: 190%;
   left: 1300px;
   --font-color: #323232;
   --font-color-sub: #666;
