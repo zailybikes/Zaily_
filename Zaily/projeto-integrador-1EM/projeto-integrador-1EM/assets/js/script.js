@@ -46,4 +46,3 @@ function showSlides(n) {
     button.addEventListener('click', () => {
       console.log('Button clicked!');
     });
- 
