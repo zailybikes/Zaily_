@@ -52,11 +52,6 @@ input:focus{
   top:123px;
   left:12200px;
 }
-.x{
-  position:fixed;
-  top:120px;
-  left:1017px;
-}
 .carrinhoteste{
   position: relative;
   left: 65%;
@@ -1606,6 +1601,7 @@ section img:hover{
   width: 500px;
   top: 170%;
  }
+
 
 
 #promo1{
