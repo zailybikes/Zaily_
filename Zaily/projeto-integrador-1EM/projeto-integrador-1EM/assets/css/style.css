@@ -1860,3 +1860,27 @@ top: -10%;
 .catalogo-menu{
   color: white;
 }
+.reco-img1{
+  position: absolute;
+  top: 215%;
+  right: 6%;
+  display: grid;
+}
+.reco-img2{
+  position: absolute;
+  top: 215%;
+  left: 7%;
+  display: grid;
+}
+.reco-img3{
+  position: absolute;
+  top: 272%;
+  left: 7%;
+  display: grid;
+}
+.reco-img4{
+  position: absolute;
+  top: 272%;
+  right: 6%;
+  display: grid;
+}
