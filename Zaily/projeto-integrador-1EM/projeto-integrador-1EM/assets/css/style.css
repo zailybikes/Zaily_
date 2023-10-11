@@ -1965,6 +1965,7 @@ top: -10%;
 }
 .button-reco4{
   position: absolute;
+  text-decoration: none;
   top: 308%;
   z-index: 2;
   left: 58.5%;
@@ -1979,4 +1980,20 @@ top: -10%;
   font-size: 16px;
   margin: 10px 2px;
   cursor: pointer;
+}
+
+.button-reco:hover {
+  text-decoration: none;
+}
+
+.button-reco2:hover {
+  text-decoration: none;
+}
+
+.button-reco3:hover {
+  text-decoration: none;
+}
+
+.button-reco4:hover {
+  text-decoration: none;
 }
