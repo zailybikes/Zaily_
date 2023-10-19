@@ -2005,3 +2005,9 @@ top: -10%;
   background-color: black;
   width: 500px;
 }
+.equipe-senac{
+  width: 1100px;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
