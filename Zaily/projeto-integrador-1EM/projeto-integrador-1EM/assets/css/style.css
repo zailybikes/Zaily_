@@ -2035,6 +2035,28 @@ left: 7.8%;
   position: absolute;
   top: 12%;
   left: 75%;
+} 
+.container-promo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
+.item-promo {
+  padding: 80px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  margin: 15px;
+  height: 250px;
+
+}
+.container-promocao{
+  position: absolute;
+  top: 190%;
+  left: 7%;
+
+}
+
 
   
