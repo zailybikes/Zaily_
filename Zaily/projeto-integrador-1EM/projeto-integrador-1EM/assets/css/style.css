@@ -1721,9 +1721,10 @@ top: -10%;
   }
 }
 .button0 {
+  text-align: center;
   width: 200px;
   height: 50px;
-  background-color: #de2c15;
+  background-color: #f25742;
   color: black;
   font-size: 20px;
   text-align: center;
@@ -1732,13 +1733,19 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 125%;
-  right: 54%;
+  top: 126%;
+  right: 54.5%;
+  margin: 0 !important;
+  transition: all linear 160ms;
+}
+.button0:hover{
+  transform: scale(1.10);
+  background-color: #de2c15;
 }
 .button1 {
   width: 200px;
   height: 50px;
-  background-color: #de2c15;
+  background-color: #f25742;
   color: black;
   font-size: 20px;
   text-align: center;
@@ -1747,13 +1754,19 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 125%;
+  top: 126%;
   right: 74%;
+  margin: 0 !important;
+  transition: all linear 160ms;
+}
+.button1:hover{
+  transform: scale(1.10);
+  background-color: #de2c15;
 }
 .button2 {
   width: 200px;
   height: 50px;
-  background-color: #de2c15;
+  background-color: #f25742;
   color: black;
   font-size: 20px;
   text-align: center;
@@ -1764,11 +1777,17 @@ top: -10%;
   position: absolute;
   top: 125%;
   left: 55%;
+  margin: 0 !important;
+  transition: all linear 160ms;
+}
+.button2:hover{
+  transform: scale(1.10);
+  background-color: #de2c15;
 }
 .button3 {
   width: 200px;
   height: 50px;
-  background-color: #de2c15;
+  background-color: #f25742;
   color: black;
   font-size: 20px;
   text-align: center;
@@ -1779,11 +1798,17 @@ top: -10%;
   position: absolute;
   top: 125%;
   left: 75%;
+  margin: 0 !important;
+  transition: all linear 160ms;
+}
+.button3:hover{
+  transform: scale(1.10);
+  background-color: #de2c15;
 }
 .button4 {
   width: 200px;
   height: 50px;
-  background-color: #de2c15;
+  background-color: #f25742;
   color: black;
   font-size: 20px;
   text-align: center;
@@ -1794,11 +1819,17 @@ top: -10%;
   position: absolute;
   top: 172%;
   left: 75%;
+  margin: 0 !important;
+  transition: all linear 160ms;
+}
+.button4:hover{
+  transform: scale(1.10);
+  background-color: #de2c15;
 }
 .button5 {
   width: 200px;
   height: 50px;
-  background-color: #de2c15;
+  background-color: #f25742;
   color: black;
   font-size: 20px;
   text-align: center;
@@ -1809,11 +1840,17 @@ top: -10%;
   position: absolute;
   top: 172%;
   left: 55%;
+  margin: 0 !important;
+  transition: all linear 160ms;
+}
+.button5:hover{
+  transform: scale(1.10);
+  background-color: #de2c15;
 }
 .button6 {
   width: 200px;
   height: 50px;
-  background-color: #de2c15;
+  background-color: #f25742;
   color: black;
   font-size: 20px;
   text-align: center;
@@ -1824,11 +1861,17 @@ top: -10%;
   position: absolute;
   top: 172%;
   left: 35.3%;
+  margin: 0 !important;
+  transition: all linear 160ms;
+}
+.button6:hover{
+  transform: scale(1.10);
+  background-color: #de2c15;
 }
 .button7 {
   width: 200px;
   height: 50px;
-  background-color: #de2c15;
+  background-color: #f25742;
   color: black;
   font-size: 20px;
   text-align: center;
@@ -1839,6 +1882,12 @@ top: -10%;
   position: absolute;
   top: 172%;
   left: 15.3%;
+  margin: 0 !important;
+  transition: all linear 160ms;
+}
+.button7:hover{
+  transform: scale(1.10);
+  background-color: #de2c15;
 }
 .banner-reco{
   position: absolute;
@@ -2004,6 +2053,16 @@ top: -10%;
   width: 200%;
   color: white;
 }
+.footer2{
+  background-color: #000000e0;
+  color: #fff;
+  text-align: center;
+  width: 200%;
+}
+.textFooter2{
+  font-family: 'Roboto', sans-serif;
+  font-size:15px;
+}
 .box-preco{
 position: absolute;
 top: 52%;
@@ -2060,6 +2119,7 @@ left: 7.8%;
 .reco-img1{
 
 }
+
 
 
   
