@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2A2B2B;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, #000000, #800000, #520808fa);
+    background-size: 500% 100%;
+    animation: degrade-animado 5s  infinite alternate;
+}
+@keyframes degrade-animado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+.formLoginCadastro {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+    width: 400px; 
+}
+
+.formLoginCadastro h1 {
+    text-align:center;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formLoginCadastro p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formLoginCadastro input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+.formLoginCadastro input:focus {
+    border: 1px solid #CF0909;
+}
+
+.formLoginCadastro label {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.formLoginCadastro a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+    text-decoration: none;
+    
+}
+
+.formLoginCadastro a:hover {
+    color: #CF0909;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    text-align:center;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #CF0909;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+    text-decoration: none;
+    
+}
+
+.formLogin a:hover {
+    color: #CF0909;
+}
+
+.btnLogin {
+    background: linear-gradient(to right, #890606, #CF0909);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btnLogin:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #890606, #CF0909) ;
+
+}
+
+.btnRedefinir {
+    background: linear-gradient(to right, #890606, #CF0909);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btnRedefinir:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #890606, #CF0909) ;
+
+}
+
+.btnCadastrar {
+    background: linear-gradient(to right, #890606, #CF0909);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btnCadastrar:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #890606, #CF0909) ;
+
+}
+/* */
+.linkLogin1{ /* pra mexer no link 2 */
+    position: absolute;
+    top: 62%;
+    left: 56%;
+}
+.linkLogin{ /* mexe no link 1*/ 
+    position: absolute;
+    top: 62%;
+    left: 33%;
+}
+
+.linkEsquecer1{ /* pra mexer no link 2 */
+    position: absolute;
+    top: 66%;
+    left: 56%;
+}
+.linkEsquecer{ /* mexe no link 1*/ 
+    position: absolute;
+    top: 66%;
+    left: 33%;
+}
+
+
+
+/*
+// CÓDIGO DE FUNDO MEXENDO
+.box-degrade{
+    width: 100%;
+    padding: 496px 0;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to left, blue, orangered, yellow);
+    background-size: 500% 100%;
+    animation: degrade-animado 5s  infinite alternate;
+}
+
+.box-degrade h1{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+@keyframes degrade-animado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+*/

@@ -1732,7 +1732,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 120.5%;
+  top: 125%;
   right: 54%;
 }
 .button1 {
@@ -1747,7 +1747,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 120.5%;
+  top: 125%;
   right: 74%;
 }
 .button2 {
@@ -1762,7 +1762,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 120.5%;
+  top: 125%;
   left: 55%;
 }
 .button3 {
@@ -1777,7 +1777,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 120.5%;
+  top: 125%;
   left: 75%;
 }
 .button4 {
@@ -1792,7 +1792,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 165%;
+  top: 172%;
   left: 75%;
 }
 .button5 {
@@ -1807,7 +1807,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 165%;
+  top: 172%;
   left: 55%;
 }
 .button6 {
@@ -1822,7 +1822,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 165%;
+  top: 172%;
   left: 35.3%;
 }
 .button7 {
@@ -1837,7 +1837,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 165%;
+  top: 172%;
   left: 15.3%;
 }
 .banner-reco{
@@ -1855,7 +1855,7 @@ top: -10%;
 .reco-img1{
   position: absolute;
   top: 215%;
-  right: 6%;
+  right: 8%;
   display: grid;
 }
 .reco-img2{
@@ -1873,7 +1873,7 @@ top: -10%;
 .reco-img4{
   position: absolute;
   top: 272%;
-  right: 6%;
+  right: 8%;
   display: grid;
 }
 .h1-reco{
@@ -2033,7 +2033,7 @@ left: 7.8%;
 }
 .cadastro{
   position: absolute;
-  top: 12%;
+  top: 12.8%;
   left: 75%;
 } 
 .container-promo {
