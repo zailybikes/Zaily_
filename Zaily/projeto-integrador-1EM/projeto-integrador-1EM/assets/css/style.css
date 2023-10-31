@@ -52,19 +52,13 @@ input:focus{
   top:123px;
   left:12200px;
 }
-.carrinhoteste{
-  position: relative;
-  left: 65%;
-  top: -428px;
-
-}
 
 .carrinhoteste:hover{
   -ms-transform: scale(1.7);
   transform: scale(1.13);
 }
 #menu{
-  color:black;
+  color: #000000;
 }
 #contato{
   z-index: 9999;
@@ -82,9 +76,9 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: absolute;
   margin: auto;
-top: 290px;
-left: 300px;
-transition: 2s;
+  top: 290px;
+  left: 300px;
+  transition: 2s;
 }
 
 /* Next & previous buttons */
@@ -1734,7 +1728,7 @@ top: -10%;
   cursor: pointer;
   position: absolute;
   top: 126%;
-  right: 54.5%;
+  right: 54%;
   margin: 0 !important;
   transition: all linear 160ms;
 }
@@ -1775,7 +1769,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 125%;
+  top: 126%;
   left: 55%;
   margin: 0 !important;
   transition: all linear 160ms;
@@ -1796,7 +1790,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 125%;
+  top: 126%;
   left: 75%;
   margin: 0 !important;
   transition: all linear 160ms;
@@ -1817,7 +1811,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 172%;
+  top: 173%;
   left: 75%;
   margin: 0 !important;
   transition: all linear 160ms;
@@ -1838,7 +1832,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 172%;
+  top: 173%;
   left: 55%;
   margin: 0 !important;
   transition: all linear 160ms;
@@ -1859,7 +1853,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 172%;
+  top: 173%;
   left: 35.3%;
   margin: 0 !important;
   transition: all linear 160ms;
@@ -1880,7 +1874,7 @@ top: -10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: absolute;
-  top: 172%;
+  top: 173%;
   left: 15.3%;
   margin: 0 !important;
   transition: all linear 160ms;
@@ -2090,11 +2084,6 @@ left: 7.8%;
   left: 20%;
   width: 1120px;
 }
-.cadastro{
-  position: absolute;
-  top: 12.8%;
-  left: 75%;
-} 
 .container-promo {
   display: flex;
   flex-wrap: wrap;
@@ -2116,7 +2105,28 @@ left: 7.8%;
   left: 7%;
 
 }
+.estiloPedal{
+  color: #000000;
+}
+/* BOTOES DA PÁGINA INICIAL */ 
+.material-symbols-outlined{
+  font-size: 38px !important;
+  margin-left: -60px;
+  margin-top: 50px;
+}
+.botoesSimbolo{
+  display: inline;
+  background-color: transparent;
+  margin-left: 750px;
+}
+.cadastro{
+  position: absolute;
+  top: 12.8%;
+  left: 75%;
+} 
+.carrinhoteste{
+  position: relative;
+  left: 65%;
+  top: -428px;
 
-
-
-  
+}
