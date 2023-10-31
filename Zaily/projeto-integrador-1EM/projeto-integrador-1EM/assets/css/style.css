@@ -1898,7 +1898,7 @@ top: -10%;
 .reco-img1{
   position: absolute;
   top: 215%;
-  right: 8%;
+  right: 6%;
   display: grid;
 }
 .reco-img2{
@@ -1916,7 +1916,7 @@ top: -10%;
 .reco-img4{
   position: absolute;
   top: 272%;
-  right: 8%;
+  right: 6%;
   display: grid;
 }
 .h1-reco{
@@ -2084,7 +2084,16 @@ left: 7.8%;
   left: 20%;
   width: 1120px;
 }
+<<<<<<< HEAD
 .container-promo {
+=======
+.cadastro{
+  position: absolute;
+  top: 12.8%;
+  left: 75%;
+} 
+.container-promo {  
+>>>>>>> cc7572065fbe8eae9b8fc02cef4861be8957b21f
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -2105,6 +2114,7 @@ left: 7.8%;
   left: 7%;
 
 }
+<<<<<<< HEAD
 .estiloPedal{
   color: #000000;
 }
@@ -2128,5 +2138,10 @@ left: 7.8%;
   position: relative;
   left: 65%;
   top: -428px;
+=======
+.reco-img1{
+
+}
+>>>>>>> cc7572065fbe8eae9b8fc02cef4861be8957b21f
 
 }
