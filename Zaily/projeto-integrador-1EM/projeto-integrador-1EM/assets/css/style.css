@@ -1885,7 +1885,7 @@ top: -10%;
 }
 .banner-reco{
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: -1%;
 
 }
@@ -2084,16 +2084,17 @@ left: 7.8%;
   left: 20%;
   width: 1120px;
 }
-<<<<<<< HEAD
+
 .container-promo {
-=======
+  display: flex;
+}
 .cadastro{
   position: absolute;
   top: 12.8%;
   left: 75%;
 } 
 .container-promo {  
->>>>>>> cc7572065fbe8eae9b8fc02cef4861be8957b21f
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -2114,7 +2115,7 @@ left: 7.8%;
   left: 7%;
 
 }
-<<<<<<< HEAD
+
 .estiloPedal{
   color: #000000;
 }
@@ -2125,9 +2126,12 @@ left: 7.8%;
   margin-top: 50px;
 }
 .botoesSimbolo{
-  display: inline;
+  position: absolute;
+  display: flex;
   background-color: transparent;
   margin-left: 750px;
+  top: 58.5%;
+  left: -1.8%;
 }
 .cadastro{
   position: absolute;
@@ -2138,10 +2142,7 @@ left: 7.8%;
   position: relative;
   left: 65%;
   top: -428px;
-=======
-.reco-img1{
-
 }
->>>>>>> cc7572065fbe8eae9b8fc02cef4861be8957b21f
-
+.banner-reco{
+  
 }
