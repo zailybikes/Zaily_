@@ -2119,18 +2119,19 @@ left: 7.8%;
 .estiloPedal{
   color: #000000;
 }
+
+
+
 /* BOTOES DA PÁGINA INICIAL */ 
 .material-symbols-outlined{
   font-size: 38px !important;
-  margin-left: -60px;
-  margin-top: 50px;
 }
 .botoesSimbolo{
   position: absolute;
   display: flex;
   background-color: transparent;
   margin-left: 750px;
-  top: 58.5%;
+  top: 62%;
   left: -1.8%;
 }
 .cadastro{
@@ -2143,6 +2144,15 @@ left: 7.8%;
   left: 65%;
   top: -428px;
 }
-.banner-reco{
-  
+#voltarSobre{
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.testesobre{
+  display: flex;
+text-align: center;
+align-items: center;
+justify-content: center; color: black;
 }
