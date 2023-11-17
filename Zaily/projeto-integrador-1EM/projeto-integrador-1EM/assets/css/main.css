@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.linkEsquecer{
 
+}
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -146,7 +148,7 @@ body {
     color: #555;
     transition: all linear 160ms;
     text-decoration: none;
-    
+
 }
 
 .formLogin a:hover {
@@ -210,12 +212,12 @@ body {
 .linkLogin1{ /* pra mexer no link 2 */
     position: absolute;
     top: 62%;
-    left: 56%;
+    left: 55%;
 }
 .linkLogin{ /* mexe no link 1*/ 
     position: absolute;
     top: 62%;
-    left: 33%;
+    left: 41%;
 }
 
 .linkEsquecer1{ /* pra mexer no link 2 */
@@ -226,7 +228,7 @@ body {
 .linkEsquecer{ /* mexe no link 1*/ 
     position: absolute;
     top: 66%;
-    left: 33%;
+    left: 39%;
 }
 
 
