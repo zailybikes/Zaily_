@@ -2042,11 +2042,30 @@ top: -10%;
   top: 25%;
   left: 20%;
 }
+.textofooter{
+  position: absolute;
+  top: 230%;
+  left: 72%;
+}
+.textofooternumero{
+  position: absolute;
+  top: 230%;
+  left: 86%;
+}
 .rodape{
+  position: center;
+  display: flex;
   background-color: #000000e0;
   width: 200%;
-  color: white;
+  color: rgb(250, 0, 0);
 }
+.rodape h2 {
+  position: absolute;
+  left: 23%;
+
+}
+
+
 .footer2{
   background-color: #000000e0;
   color: #fff;
@@ -2094,7 +2113,6 @@ left: 7.8%;
   left: 75%;
 } 
 .container-promo {  
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -2155,4 +2173,9 @@ justify-content: center;
 text-align: center;
 align-items: center;
 justify-content: center; color: black;
+}
+.container-promocao2{
+ position: absolute;
+ top: 250%;
+ left: 7.3%;
 }
