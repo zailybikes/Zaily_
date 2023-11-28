@@ -2174,3 +2174,8 @@ text-align: center;
 align-items: center;
 justify-content: center; color: black;
 }
+.container-promocao2{
+ position: absolute;
+ top: 250%;
+ left: 7.3%;
+}
