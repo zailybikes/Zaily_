@@ -1,0 +1,81 @@
+/* PAGINA DE SOBRE NÓS */
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Anton&family=Archivo&family=Bungee&family=EB+Garamond&family=Mulish:ital,wght@1,300&family=Nosifer&family=Playpen+Sans:wght@700&family=Rubik&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Anton&family=Archivo&family=Bungee&family=Cinzel:wght@600&family=EB+Garamond&family=Mulish:ital,wght@1,300&family=Nosifer&family=Playpen+Sans:wght@700&family=Rubik&family=Staatliches&display=swap');
+
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.titleSobre{
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    background-color: #fff;
+    font-family: 'Cinzel', serif;
+}
+
+.ParagrafoSobre{
+    color: black;
+    margin-top: 0%;
+    padding-left: 15%;
+    width: 70%;
+    text-align: center;
+    font-size: 19px;
+    background-color: #fff;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+.sobre{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: -4px 2px 42px #ff2121;
+    gap: 5px;
+}
+
+.btnSobre {
+    background: linear-gradient(to right, #da2727, #f67e7e);
+    color: #fff;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+
+}
+
+.btnSobre:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #da2727, #f67e7e) ;
+}
+
+.imagemSenac{
+    max-width: 500px;
+}

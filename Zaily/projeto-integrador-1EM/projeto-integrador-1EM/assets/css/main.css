@@ -153,7 +153,9 @@ body {
     color: #CF0909;
 }
 
-.btnLogin {
+
+.formLogin .btnLogin {
+    text-align: center;
     background: linear-gradient(to right, #890606, #CF0909);
     color: #fff;
     font-size: 14px;
@@ -162,16 +164,25 @@ body {
     transition: all linear 160ms;
     cursor: pointer;
     margin: 0 !important;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
 
 }
 
-.btnLogin:hover {
+.formLogin .btnLogin:hover {
     transform: scale(1.05);
     background: linear-gradient(to right, #890606, #CF0909) ;
-
+    color: #fff;
 }
 
-.btnRedefinir {
+.formLogin .btnRedefinir {
+    text-align: center;
     background: linear-gradient(to right, #890606, #CF0909);
     color: #fff;
     font-size: 14px;
@@ -180,16 +191,25 @@ body {
     transition: all linear 160ms;
     cursor: pointer;
     margin: 0 !important;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
 
 }
 
-.btnRedefinir:hover {
+.formLogin .btnRedefinir:hover {
     transform: scale(1.05);
     background: linear-gradient(to right, #890606, #CF0909) ;
-
+    color: #fff;
 }
 
-.btnCadastrar {
+.formLoginCadastro .btnCadastrar {
+    text-align: center;
     background: linear-gradient(to right, #890606, #CF0909);
     color: #fff;
     font-size: 14px;
@@ -198,13 +218,21 @@ body {
     transition: all linear 160ms;
     cursor: pointer;
     margin: 0 !important;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
 
 }
 
-.btnCadastrar:hover {
+.formLoginCadastro .btnCadastrar:hover {
     transform: scale(1.05);
     background: linear-gradient(to right, #890606, #CF0909) ;
-
+    color: #fff;
 }
 /* */
 .linkLogin1{ /* pra mexer no link 2 */
@@ -229,8 +257,19 @@ body {
     left: 39.5%;
 }
 
+.cadastroLogin{
+    text-align: center;
+}
 
+.comingSoon{
+    width: 100%;
+    height: 100%;
+}
 
+.comingSoon1{
+    width: 100%;
+    height: 100%;
+}
 /*
 // CÓDIGO DE FUNDO MEXENDO
 .box-degrade{
@@ -257,3 +296,4 @@ body {
     }
 }
 */
+
