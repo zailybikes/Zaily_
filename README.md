@@ -12,11 +12,15 @@ Zaily é um site destinado a venda de bicicletas, contendo as máquinas, peças 
 
 
 ### Itens pendentes para o término do projeto
-- [ ] Adicionar requisitos funcionais à documentação.
-- [ ] Adicionar requisitos não funcionais à documentação.
 - [ ] Adicionar à documentação os itens 7 e 8.
 - [ ] Conclusão da documentação.
 - [ ] Adicionar referências à documentação.
-- [ ] Adicionar páginas de login, cadastro e perca de senha.
+- [ ] Alterar a descrição do wireframe 3 na documentação "Aba sobre a equipe do projeto"
+- [ ] Alterar a imagem do wireframe 4 na documentação - wireframe de contato
+- [ ] Alterar a descrição do wireframe 4 na documentação "Aba de contato"
+- [ ] Preparar apresentação final do Projeto Integrador - Slides do genially
+- [ ] Revisar a documentação depois de pronta
+- [ ] Enviar slides até sexta (01/12/23)
+      
 
 
